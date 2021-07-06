@@ -24,7 +24,7 @@ public class BinarySearch {
         int[] arr1 = {9, 3, 65, 7, 2, 12, 32, 14, 9, 5, 87};
         int target = 9;
 
-        int[] sortedArr1 = SelectionSort.selectionSort(arr1);
+        int[] sortedArr1 = QuickSort03.quickSort03(arr1, 0, arr1.length - 1);
         System.out.println("Starting Binary Search");
 
         if (binarySearch(sortedArr1, target) != -1){

@@ -3,12 +3,13 @@ package com.JonathanATM;
 import java.util.Arrays;
 
 public class QuickSort03 {
-    static void quickSort03(int[] seq, int left, int right){
+    static int[] quickSort03(int[] seq, int left, int right){
         if (left < right) {
             int pos = partition(seq, left, right);
             quickSort03(seq, left, pos - 1);
             quickSort03(seq, pos + 1, right);
         }
+        return seq;
     }
 
     private static int partition(int[] seq, int left, int right){
