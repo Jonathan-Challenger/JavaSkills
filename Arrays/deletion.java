@@ -13,6 +13,7 @@ public class deletion {
     public static void main(String[] args){
         int length = 0;
 
+        // Filling the first 8 elements of arr 
         for (int i = 0; i < 8; i++){
             arr[length] = i;
             length++;
@@ -56,9 +57,5 @@ public class deletion {
         length--;
 
         printArray(length);
-
-
-
-
     }
 }
