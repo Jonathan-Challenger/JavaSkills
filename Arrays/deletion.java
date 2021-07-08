@@ -1,4 +1,4 @@
-package com.JonathanATM.Arrays;
+package Array;
 
 public class deletion {
     static int[] arr = new int[10];

@@ -1,5 +1,4 @@
-package com.JonathanATM.Arrays;
-
+package Array;
 
 /*
 Given an array of integers this will find how many of the elements
