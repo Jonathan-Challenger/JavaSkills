@@ -1,7 +1,5 @@
 package Array;
 
-import java.util.Arrays;
-
 public class removeElement {
     private static int removesElement(int[] arr, int val) {
         if (arr.length < 1) {
