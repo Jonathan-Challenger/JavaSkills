@@ -24,7 +24,7 @@ public class dupZeros {
         }
         int last = len - dups;
 
-        for (int j = last; j > 0; j--) {
+        for (int j = last; j >= 0; j--) {
             if (arr[j] == 0) {
                 arr[j + dups] = 0;
                 arr[j + --dups] = 0;
