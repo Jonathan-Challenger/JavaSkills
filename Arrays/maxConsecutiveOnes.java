@@ -1,4 +1,4 @@
-package com.JonathanATM.Arrays;
+package Array;
 
 
 /*
