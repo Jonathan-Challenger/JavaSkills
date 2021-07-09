@@ -8,7 +8,7 @@ public class removeDups {
             return 0;
         }
         int k = 0;
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {
             if (arr[k] != arr[i]){
                 k++;
                 arr[k] = arr[i];
